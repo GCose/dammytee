@@ -1,6 +1,6 @@
-/**===============================
-  *  Function that handles header scroll effects
- ================================*/
+/**=============================================
+ * Function that handles header scroll effects
+ ==============================================*/
 function handleHeaderScroll() {
     const header = document.querySelector('.header');
     const scrollThreshold = 50;
@@ -14,9 +14,9 @@ function handleHeaderScroll() {
     });
 }
 
-/**===============================
-  *  Function that handles mobile menu toggle
- ================================*/
+/**=========================================
+ * Function that handles mobile menu toggle
+ ==========================================*/
 function handleMobileMenu() {
     const menuToggle = document.querySelector('.header__menu-toggle');
     const nav = document.querySelector('.header__nav');
@@ -36,9 +36,9 @@ function handleMobileMenu() {
     });
 }
 
-/**===============================
-  *  Function that handles testimonial slider
- ================================*/
+/**==========================================
+ * Function that handles testimonial slider
+ ===========================================*/
 function handleTestimonialSlider() {
     const slides = document.querySelectorAll('.testimonial__slide');
     const indicators = document.querySelectorAll('.testimonial__indicator');
@@ -100,9 +100,9 @@ function handleTestimonialSlider() {
     showSlide(0);
 }
 
-/**===============================
-  *  Function that handles smooth scrolling
- ================================*/
+/**========================================
+ * Function that handles smooth scrolling
+ =========================================*/
 function handleSmoothScroll() {
     const links = document.querySelectorAll('a[href^="#"]');
 
@@ -128,9 +128,9 @@ function handleSmoothScroll() {
     });
 }
 
-/**===============================
-  *  Function that initializes ScrollReveal animations
- ================================*/
+/**===================================================
+ *  Function that initializes ScrollReveal animations
+ ====================================================*/
 function initScrollReveal() {
     // Common reveal configuration
     const defaultRevealConfig = {
@@ -285,9 +285,9 @@ function initScrollReveal() {
     });
 }
 
-/**===============================
-  *  Function that initializes the website
- ================================*/
+/**=======================================
+ * Function that initializes the website
+ ========================================*/
 function initWebsite() {
     handleHeaderScroll();
     handleMobileMenu();
