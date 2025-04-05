@@ -1326,21 +1326,20 @@ textarea {
  * FOOTER STYLES
  ==================*/
 .footer {
-    background-color: var(--color-primary-dark);
     color: var(--color-white);
+    background-color: var(--color-primary-dark);
     padding: var(--spacing-lg) 0 var(--spacing-sm);
 }
 
 .footer__container {
     width: 90%;
-    max-width: 1400px;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
     justify-content: space-between;
-    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
     padding-bottom: var(--spacing-md);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: var(--spacing-md);
 }
 
 .footer__logo {
@@ -1350,8 +1349,8 @@ textarea {
 }
 
 .footer__logo-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     font-weight: 700;
     font-size: 2.4rem;
@@ -1443,13 +1442,13 @@ textarea {
  ====================*/
 @media (max-width: 992px) {
     .footer__container {
-        text-align: center;
+        text-align: left;
         align-items: center;
         flex-direction: column;
     }
 
     .footer__links {
-        align-items: center;
+        align-items: left;
         flex-direction: column;
         gap: var(--spacing-md);
     }
